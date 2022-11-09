@@ -89,11 +89,13 @@ body{
     display:inline-flex;
 }
 
+
 .sound-bar-image{
     position: absolute;
-    width: 842px;
+    width: 810px;
     height: 270px;
     margin-top: 166px;
+    
    
     
     
@@ -591,7 +593,8 @@ body{
     line-height: 72px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 106px;
-    margin-top: 80px;
+    margin-top: 100px;
+   
 
 }
 
@@ -602,7 +605,7 @@ body{
     line-height: 29px;
     color: white;
     margin-left: 106px;
-    
+   
 }
 
 .battery-imges{
@@ -612,8 +615,8 @@ body{
 }
 
 .battery-imges-1{
-    height:606px;
-    width:550px;
+    height:605px;
+    width:500px;
     margin-left:150px;
     margin-top:80px;
     border-radius: 30px;
