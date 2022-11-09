@@ -1,0 +1,953 @@
+body{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.header{
+   width:100%;
+    display: inline-flex;
+    background: black;
+    color: white;
+   
+    height:148px;
+    
+}
+.logo{
+   
+    
+    
+    width: 200px;
+    height:26.62px;
+    
+    margin-top: 93.87px;
+    display: inline-flex;
+    margin-left:50px;
+    
+    
+
+}
+.logo-logo:hover{
+    stroke:rgb(19, 167, 241) ;
+    stroke-width: 2px;
+}
+
+
+
+ .btn{
+    width:170px;
+    height: 30px;
+    margin-top: 74px;
+    margin-left: 771px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: rgb(32, 30, 30);
+    position: absolute;
+    display: block;
+    border-radius: 20px;
+    justify-content: center;
+   
+}
+
+.nav{
+    list-style: none;
+    position: absolute;
+    display: inline-flex;
+    gap:15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-left: 1094px;
+    margin-top: 74px;
+}
+
+.image-section{
+    
+   
+    height: 606px;
+    position: relative;
+    border: 0px solid white;
+    max-width: 100%;
+    overflow-y: hidden;
+    
+    
+}
+
+.img-maa-durga{
+    width: 100%;
+    height: 606px;
+    position: absolute;
+    
+}
+
+.flex-text-img{
+    display:inline-flex;
+}
+
+.sound-bar-image{
+    position: absolute;
+    width: 842px;
+    height: 270px;
+    margin-top: 166px;
+   
+    
+    
+    
+    
+}
+
+.image-quote{
+    color: white;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    justify-content: center;
+    text-align: center;
+    width: 660px;
+    height:150px;
+    left:50px;
+    margin-top: 184px;
+    line-height: 67.5px;
+    
+
+}
+
+
+.btn-shop{
+    position: absolute;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    width: 274px;
+    height: 61px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+   
+    margin-left: 187px;
+    border-radius: 50px;
+    margin-top:100px;
+
+}
+
+
+.product{
+    height: 700px;
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+   
+    
+}
+
+.product-box-1{
+    height: 100%;
+    width:40%;
+    background: #000;
+    
+   
+    box-sizing: border-box;
+   
+}
+.product-box-2{
+    height: 100%;
+    width:60%;
+    background: #000;
+    
+}
+
+
+
+
+
+
+
+.product-quote{
+    color: white;
+    position: relative;
+    font-weight: 700;
+    font-size: 64px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 149px;
+    margin-top: 100px;
+    
+}
+
+.product-discription{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    
+    margin-left: 149px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    
+}
+
+
+.color-btn-flex{
+    
+   display: inline-flex;
+    
+    position: absolute;
+    margin-top: 10px;
+    
+    
+    
+   
+    
+}
+
+
+.btn-silver{
+    border-radius: 100%;
+    width:32px;
+    height:32px;
+    margin-left:149px;
+    background:hsla(0, 0%, 40%, 1);
+    
+    border: 2px solid hsla(0, 0%, 40%, 1);
+    outline:2px solid hsla(0, 0%, 40%, 1);
+    outline-offset: 5px;
+    
+}
+.btn-silver:hover{
+   border-color: rgb(19, 167, 241);
+   outline-color:rgb(19, 167, 241);
+}
+
+.btn-yellow{
+    border-radius: 100%;
+    width:32px;
+    height:32px;
+    margin-left:49px;
+    background: hsla(34, 99%, 66%, 1);
+    border: 2px solid hsla(34, 99%, 66%, 1);
+    
+}
+.btn-yellow:hover{
+    border-color: rgb(19, 167, 241);
+ }
+
+.btn-green{
+    border-radius: 100%;
+    width:32px;
+    height:32px;
+    margin-left:49px;
+    background: rgba(96, 102, 81, 1);
+    border: 4px solid black;
+
+}
+.btn-green:hover{
+    border-color: rgb(19, 167, 241);
+ }
+ 
+.btn-light-yellow{
+    border-radius: 100%;
+    width:32px;
+    height:32px;
+    margin-left:49px;
+    background: rgba(237, 171, 123, 1);
+    border: 4px solid black;
+
+
+
+}
+
+.btn-light-yellow:hover{
+    border-color: rgb(19, 167, 241);
+ }
+
+.btn-red{
+    border-radius: 100%;
+    width:32px;
+    height:32px;
+    margin-left:49px;
+   
+    background: hsla(355, 44%, 59%, 1);
+    border: 4px solid black;
+
+}
+
+.btn-red:hover{
+    border-color: rgb(19, 167, 241);
+ }
+.price-buy-flex{
+    display: flex;
+   
+}
+
+.price{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color:white;
+    position: absolute;
+    margin-left: 149px;
+    margin-top:105px;
+}
+
+
+.buy-now{
+    width:190px;
+    height:48px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    border:none;
+    position: absolute;
+    margin-left: 346px;
+    margin-top:100px;
+    
+}
+
+.headphone-img{
+    margin-top: 100px;
+    height: 548px;
+    width:398px;
+    
+    position:absolute;
+}
+
+.features-section{
+   height:450px;
+   width: 100%;
+   background: black;
+   position: absolute;
+}
+
+
+.feature-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 18px;
+    letter-spacing: 6%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-left: 45px;
+    position: absolute;
+}
+
+.box-card{
+    height:250px;
+    width: 100%;
+    display: inline-flex;
+    gap:30px;
+    
+   justify-content: center;
+   
+   margin-top: 100px;
+
+   color:white;
+   position: absolute;
+
+}
+
+.card-1{
+    height:203px;
+    width:230px;
+    border-radius: 10px;
+    
+    
+    
+
+}
+.card-2{
+    height:203px;
+    width:230px;
+    border-radius: 10px;
+   
+    
+}
+
+.card-3{
+    height:203px;
+    width:230px;
+    border-radius: 10px;
+    
+    
+}
+
+.card-4{
+    height:203px;
+    width:230px;
+    border-radius: 10px;
+    
+    
+}
+
+.card-5{
+    height:203px;
+    width:230px;
+    border-radius: 10px;
+    
+    
+}
+
+#faa{
+    margin-top: 80px;
+    font-size: 60px;
+    
+    
+}
+
+#faa:hover{
+    color: rgb(19, 167, 241);
+}
+
+.Discription{
+    height: 606px;
+    width: 100%;
+    
+    
+    margin-top: 450px;
+   
+    
+}
+
+.mountain-img-div{
+    height: 606px;
+    width: 100%;
+    
+}
+
+
+.mountain-img{
+    height: 606px;
+    width: 100%;
+    position: absolute;
+    
+    
+}
+
+
+.discription-quote{
+    position: absolute;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    
+    line-height: 72px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    height: 150px;
+    width: 45%;
+    
+    margin-top:150px;
+}
+
+.discription-quote-1{
+    position: absolute;
+    font-weight: 600;
+    font-size: 25px;
+    
+    
+    line-height: 72px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    letter-spacing: 3%;
+    margin-top: 300px;
+    height: 300px;
+    width: 60%;
+    margin-left:110px;
+  
+}
+
+.learn-more{
+    position: absolute;
+    width:274px;
+    height:61px;
+    margin-left:241px;
+    border-radius: 50px;
+    margin-top: 450px;
+    
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    align-items: center;
+    text-align: center;
+    border: none;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.sound-link-img{
+    height: 384px;
+    width: 700px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+
+.headphone-discription{
+    height:2000px;
+    width:100%;
+    background: black;
+    display: inline-block;
+    
+}
+
+.headphone-heading{
+   
+    position:absolute;
+    width: 852px;
+    height:68px;
+    left:294px;
+    
+
+
+}
+
+.headphone-heading-1{
+    margin-left: 194px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.sub-heading{
+    position: absolute;
+    height: 130px;
+    width:792px;
+    background: black;
+    margin-top: 150px;
+    margin-left: 324px;
+
+}
+
+
+.sub-heading-1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    
+    
+    position: absolute;
+    justify-content: center;
+
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.headphone-image-1{
+    height:950px;
+    width: 100%;
+    
+    margin-top:280px;
+}
+
+.headphone-image-1-1{
+    height:950px;
+    width: 950px;
+    position: absolute;
+    margin-left: 238.09px;
+
+}
+
+
+.headphone-dis-flex{
+    height:844px;
+    width:100%;
+   
+    display: inline-flex;
+    
+}
+
+.battery-heading{
+    width:40%;
+    height:600px;
+    
+    
+    margin-top: 80px;
+
+
+}
+
+.battery-heading-1{
+    font-weight: 700;
+    color:white;
+    font-size: 64px;
+    line-height: 72px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 106px;
+    margin-top: 80px;
+
+}
+
+
+.battery-heading-2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: white;
+    margin-left: 106px;
+    
+}
+
+.battery-imges{
+    height:844px;
+    width:60%;
+   
+}
+
+.battery-imges-1{
+    height:606px;
+    width:550px;
+    margin-left:150px;
+    margin-top:80px;
+    border-radius: 30px;
+    position: absolute;
+
+
+}
+
+.battery-imges-2{
+    position: absolute;
+    height: 194px;
+    width:139px;
+    margin-left:580px;
+    margin-top: 500px;
+    border-radius: 20px;
+    
+    background: white;
+    box-shadow:  2px solid white;
+    border: 10px solid white;
+}
+
+
+.related-product{
+    height: 680px;
+    width:  100%;
+    background: black;
+   
+    
+
+    
+}
+
+.related-flex{
+    width:100%;
+    height: 120px;
+   
+    position:absolute;
+}
+
+.r-product-head{
+   position: absolute;
+    width: 553.49px;
+    height: 76px;
+    margin-left: 50px;
+    
+    
+    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72px;
+    
+    
+    letter-spacing: 0.06em;
+    
+    
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+.show-all{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 193.67px;
+    height: 48px;
+    left: 1196px;
+   
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    color:white;
+    background: #000;
+    font-weight: 700;
+    margin-top: 55px;
+    
+    
+}
+
+.related-product-card{
+    height:595px;
+    width:100%;
+    display: inline-flex;
+    margin-top: 160px;
+
+}
+
+.r-card-1{
+    width:329.24px;
+    height:495px;
+    margin-left: 50px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+.r-card-1-img{
+        
+    width: 158.19px;
+    height: 214px;
+    margin-top: 50px;
+    margin-left: 90px;
+    position:absolute;
+
+        
+
+}
+
+.card-dis{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+    margin-left: 40px;
+    margin-top: 300px;
+}
+
+.card-price{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(184, 180, 180);
+    margin-left: 40px;
+}
+
+
+.brand-info{
+    height:500px;
+    width:100%;
+    background: black;
+}
+
+
+.brand-logo{
+    display: inline-flex;
+    
+    margin-top:130px;
+    
+    
+   
+
+}
+
+.brand-logo-logo-1{
+    margin-left: 395px;
+}
+
+.brand-logo-logo-2{
+   
+
+}
+
+.brand-msg{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 72px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.learn-more-Btn{
+    
+    text-align: center;
+
+}
+
+.learn-more-btn{
+
+    width: 274px;
+    height: 61px;
+    font-weight: 700;
+    font-size: 20px;
+   
+
+
+
+letter-spacing: 0.06em;
+
+color: #000000;
+border-radius: 50px;
+}
+
+.social{
+    height:154px;
+    width:100%;
+    background: #1E1E1E;
+    display: inline-flex;
+   
+}
+
+.facebook{
+    
+    margin-left: 5.97%;
+    margin-right: 92.29%;
+    position: absolute;
+    margin-top:50px;
+
+   
+    
+}
+
+
+.facebook:hover{
+    stroke:rgb(19, 167, 241) ;
+    stroke-width: 4px;
+
+}
+
+.youtube{
+    
+    margin-left: 13.89%;
+    margin-right: 80.58%;
+    position: absolute;
+    margin-top:50px;
+}
+
+
+.youtube:hover{
+    stroke:rgb(19, 167, 241) ;
+    stroke-width: 4px;
+}
+
+.email{
+    
+    margin-left: 72.74%;
+    margin-right: 24.18%;
+    position: absolute;
+    margin-top:50px;
+}
+
+.email:hover{
+    stroke:rgb(19, 167, 241) ;
+    stroke-width: 2px;
+}
+
+.sign-up{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color:white;
+    margin-top:50px;
+    margin-left: 78.74%;
+    
+
+}
+
+.contact-us{
+    width:100%;
+    height:790px;
+    background: black;
+    position: absolute;
+    
+}
+
+.flex-container{
+    display: inline-flex;
+}
+
+
+.left-quote{
+
+    width:441px;
+    height:195px;
+    
+    margin-left: 157px;
+    margin-top:140px;
+}
+
+.nav-list-1{
+    width:331px;
+    height: 350px;
+   
+    margin-left:140px;
+    margin-top:154px;
+}
+
+.nav-list-2{
+    width:240px;
+    height: 300px;
+    
+    margin-left:100px;
+    margin-top:154px;
+}
+
+
+.left-quote-1{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+
+.nav-list-1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: #C5C5C5;
+
+}
+
+.nav-list-2{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 50px;
+
+
+letter-spacing: 0.02em;
+
+color: #C5C5C5;
+
+}
+
+
+.horizontal-line{
+    position: absolute;
+    width: 793px;
+    height: 0px;
+    margin-left: 572px;
+    margin-top:90px;
+    
+    border: 1px solid #C5C5C5;
+}
+
+.brand-logo-footer{
+    width:100%;
+    background: #000;
+    height:180px;
+    display: inline-flex;
+    margin-left: 156px;
+    margin-top: 150px;
+    height:30px;
+}
